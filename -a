@@ -1,0 +1,13 @@
+safe.directory=*
+safe.directory=
+push.default=simple
+alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+credential.helper=/usr/bin/gp credential-helper
+user.name=<maria>
+user.email=<mdelia1@worcester.edu>
+pull.ff=only
+init.defaultbranch=main
+merge.conflictstyle=diff3
+merge.tool=vscode
+mergetool.keepbackup=false
+mergetool.vscode.cmd=code --wait $MERGED
